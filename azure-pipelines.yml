@@ -7,7 +7,9 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: office-laptop-agent
+  demands:
+  - java
 
 steps:
 - task: Maven@4
