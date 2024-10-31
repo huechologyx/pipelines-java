@@ -7,9 +7,8 @@ trigger:
 - main
 
 pool:
-  name: office-laptop-agent
-  demands:
-  - java
+  name: 'office-laptop-agent'
+
 
 steps:
 - task: Maven@4
